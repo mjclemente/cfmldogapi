@@ -1,0 +1,57 @@
+{
+  "name": "CFML DogAPI",
+  "version": "0.0.0",
+  "author":"Matthew Clemente <mjclemente@gmail.com>",
+  "location": "",
+  "homepage": "",
+  "repository": {
+    "type": "",
+    "URL": ""
+  },
+  "bugs":"",
+  "slug": "cfmldogapi",
+  "changelog":"",
+  "contributors":[],
+  "dependencies":{},
+  "description":"",
+  "devDependencies":{},
+  "documentation":"",
+  "ignore":[
+      "**/.*",
+      "/test/",
+      "/tests/"
+  ],
+  "installPaths":{},
+  "instructions":"",
+  "keywords":[],
+  "license":[
+      {
+          "type":"",
+          "URL":""
+      }
+  ],
+  "private":false,
+  "projectURL":"",
+  "scripts":{},
+  "shortDescription":"A CFML wrapper for The Dog API. Interact with the self-proclaimed largest open source collection of dog pictures on the internet.",
+  "testbox":{
+      "bundles":"",
+      "directory":"tests.specs",
+      "labels":"",
+      "options":{},
+      "recurse":true,
+      "reporter":"",
+      "runner":[
+          {
+              "default":""
+          }
+      ],
+      "testBundles":"",
+      "testSpecs":"",
+      "testSuites":"",
+      "verbose":true,
+      "watchDelay":500,
+      "watchPaths":"**.cfc"
+  },
+  "type":"modules"
+}
