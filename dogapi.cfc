@@ -5,7 +5,7 @@
 */
 component displayname="CFML DogAPI"  {
 
-  variables._cfmldogapi_version = '0.0.0';
+  variables._cfmldogapi_version = '1.0.0';
 
   public any function init(
     string baseUrl = "https://dog.ceo/api",

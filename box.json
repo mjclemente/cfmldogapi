@@ -1,14 +1,14 @@
 {
   "name": "CFML DogAPI",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author":"Matthew Clemente <mjclemente@gmail.com>",
-  "location": "",
-  "homepage": "",
+  "location": "mjclemente/cfmldogapi#v1.0.0",
+  "homepage": "https://github.com/mjclemente/cfmldogapi",
   "repository": {
-    "type": "",
-    "URL": ""
+    "type": "git",
+    "URL": "https://github.com/mjclemente/cfmldogapi"
   },
-  "bugs":"",
+  "bugs":"https://github.com/mjclemente/cfmldogapi/issues",
   "slug": "cfmldogapi",
   "changelog":"",
   "contributors":[],
@@ -16,24 +16,24 @@
   "description":"",
   "devDependencies":{},
   "documentation":"",
-  "ignore":[
-      "**/.*",
-      "/test/",
-      "/tests/"
-  ],
   "installPaths":{},
   "instructions":"",
-  "keywords":[],
+  "keywords":[ "dogs", "api", "images", "dog.ceo" ],
   "license":[
-      {
-          "type":"",
-          "URL":""
-      }
+    {
+      "type": "MIT",
+      "URL": "https://github.com/mjclemente/cfmldogapi/blob/master/LICENSE"
+    }
   ],
   "private":false,
   "projectURL":"",
   "scripts":{},
   "shortDescription":"A CFML wrapper for The Dog API. Interact with the self-proclaimed largest open source collection of dog pictures on the internet.",
+  "ignore": [
+    "**/.*",
+    "/test/",
+    "/tests/"
+  ],
   "testbox":{
       "bundles":"",
       "directory":"tests.specs",
