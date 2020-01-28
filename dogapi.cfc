@@ -9,7 +9,8 @@ component displayname="CFML DogAPI"  {
 
   public any function init(
     string baseUrl = "https://dog.ceo/api",
-    boolean includeRaw = false ) {
+    boolean includeRaw = false,
+    numeric httpTimeout = 50 ) {
 
     structAppend( variables, arguments );
 
@@ -195,7 +196,7 @@ component displayname="CFML DogAPI"  {
       ? ( '?' & parseQueryParams( queryParams, false ) )
       : '' );
 
-    cfhttp( url = fullPath, method = httpMethod,  result = 'result' ) {
+    cfhttp( url = fullPath, method = httpMethod,  result = 'result', timeout = variables.httpTimeout ) {
 
       if ( isJsonPayload( headers ) ) {
 
